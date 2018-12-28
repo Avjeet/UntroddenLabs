@@ -1,15 +1,18 @@
-package com.example.android.untroddentestproject;
+package com.example.android.untroddentestproject.Fragment;
 
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v4.view.ViewPager;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.example.android.untroddentestproject.R;
+import com.example.android.untroddentestproject.Adapters.ContactRVAdapter;
+import com.example.android.untroddentestproject.RealmModels.UTModel;
 
 import org.json.JSONArray;
 import org.json.JSONException;

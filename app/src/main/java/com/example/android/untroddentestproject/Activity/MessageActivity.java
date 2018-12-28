@@ -1,4 +1,4 @@
-package com.example.android.untroddentestproject;
+package com.example.android.untroddentestproject.Activity;
 
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
@@ -10,12 +10,16 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
+import com.example.android.untroddentestproject.MSG91.MSG91APIAdapter;
+import com.example.android.untroddentestproject.MSG91.MSG91api;
+import com.example.android.untroddentestproject.R;
+import com.example.android.untroddentestproject.RealmModels.History;
+import com.example.android.untroddentestproject.RealmModels.UTModel;
+
 import io.realm.Realm;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
-import retrofit2.Retrofit;
-import retrofit2.http.POST;
 
 public class MessageActivity extends AppCompatActivity {
 

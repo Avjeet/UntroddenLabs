@@ -1,9 +1,12 @@
-package com.example.android.untroddentestproject;
+package com.example.android.untroddentestproject.Adapters;
 
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+
+import com.example.android.untroddentestproject.Fragment.ContactMainFragment;
+import com.example.android.untroddentestproject.Fragment.OTPDetailFragment;
 
 /**
  * Created by Avjeet on 28-12-2018.

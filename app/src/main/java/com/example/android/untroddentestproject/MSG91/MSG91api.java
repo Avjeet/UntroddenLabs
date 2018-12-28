@@ -1,10 +1,8 @@
-package com.example.android.untroddentestproject;
+package com.example.android.untroddentestproject.MSG91;
 
-import java.util.List;
+import com.example.android.untroddentestproject.RealmModels.UTModel;
 
 import retrofit2.Call;
-import retrofit2.http.Field;
-import retrofit2.http.GET;
 import retrofit2.http.POST;
 import retrofit2.http.Query;
 

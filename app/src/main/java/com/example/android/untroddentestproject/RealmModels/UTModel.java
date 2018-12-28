@@ -1,4 +1,4 @@
-package com.example.android.untroddentestproject;
+package com.example.android.untroddentestproject.RealmModels;
 
 import io.realm.RealmObject;
 import io.realm.annotations.PrimaryKey;

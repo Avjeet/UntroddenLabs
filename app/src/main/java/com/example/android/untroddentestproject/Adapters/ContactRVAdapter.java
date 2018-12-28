@@ -1,4 +1,4 @@
-package com.example.android.untroddentestproject;
+package com.example.android.untroddentestproject.Adapters;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,8 +10,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.example.android.untroddentestproject.Activity.OTPActivity;
+import com.example.android.untroddentestproject.R;
+import com.example.android.untroddentestproject.RealmModels.UTModel;
+
 import java.util.ArrayList;
-import java.util.HashMap;
 
 /**
  * Created by Your name on 28-12-2018.
@@ -20,7 +23,7 @@ public class ContactRVAdapter extends RecyclerView.Adapter<ContactRVAdapter.MyVi
     private final Context activity;
     private ArrayList<UTModel> arrayList;
 
-    public ContactRVAdapter(ArrayList<UTModel> arrayList,Context context) {
+    public ContactRVAdapter(ArrayList<UTModel> arrayList, Context context) {
         this.arrayList = arrayList;
         this.activity = context;
 

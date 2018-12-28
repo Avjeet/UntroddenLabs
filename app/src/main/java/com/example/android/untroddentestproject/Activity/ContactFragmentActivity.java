@@ -1,15 +1,12 @@
-package com.example.android.untroddentestproject;
+package com.example.android.untroddentestproject.Activity;
 
-import android.app.Activity;
-import android.app.AppComponentFactory;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
-import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
-import android.view.View;
 
-import io.realm.Realm;
+import com.example.android.untroddentestproject.R;
+import com.example.android.untroddentestproject.Adapters.UTPagerAdapter;
 
 public class ContactFragmentActivity extends AppCompatActivity {
 
