@@ -12,6 +12,7 @@ import android.view.ViewGroup;
 
 import io.realm.Realm;
 import io.realm.RealmResults;
+import io.realm.Sort;
 
 
 /**
@@ -40,7 +41,7 @@ public class OTPDetailFragment extends Fragment {
 
         Realm realm = Realm.getDefaultInstance();
 
-        final RealmResults<History> history = realm.where(History.class).findAll();
+        final RealmResults<History> history = realm.where(History.class).findAll().sort("time",Sort.DESCENDING);
 
         historyRVAdapter = new HistoryRVAdapter(history);
 
