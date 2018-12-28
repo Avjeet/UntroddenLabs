@@ -1,0 +1,52 @@
+{
+  "contacts": [
+  {
+    "name": "Avjeet",
+    "number": "8527949323",
+    "gender": "male",
+    "address": "355/2 Bagh Kare Kishan Ganj Delhi"
+   },
+    {
+    "name": "Untrodden Labs",
+    "number": "8510015577",
+    "gender": "male",
+    "address": "1A,first floor, Rd No44,, Vardhman Plaza, Rani Bagh, Pitampura, opposite Aggarwal city Mall, Delhi, 110034"
+   },
+    {
+    "name": "Avjeet",
+    "number": "8527949323",
+    "gender": "male",
+    "address": "355/2 Bagh Kare Kishan Ganj Delhi"
+   },
+    {
+    "name": "Ashish",
+    "number": "8527949323",
+    "gender": "male",
+    "address": "355/2 Bagh Kare Kishan Ganj Delhi"
+   },
+    {
+    "name": "Imran",
+    "number": "8527949323",
+    "gender": "female",
+    "address": "355/2 Bagh Kare Kishan Ganj Delhi"
+   },
+    {
+      "name": "Avjeet",
+      "number": "8527949323",
+    "gender": "male",
+    "address": "355/2 Bagh Kare Kishan Ganj Delhi"
+    },
+    {
+      "name": "Avjeet",
+      "number": "8527949323",
+    "gender": "male",
+    "address": "355/2 Bagh Kare Kishan Ganj Delhi"
+    },
+    {
+      "name": "Avjeet",
+      "number": "8527949323",
+    "gender": "male",
+    "address": "355/2 Bagh Kare Kishan Ganj Delhi"
+    }
+  ]
+}
