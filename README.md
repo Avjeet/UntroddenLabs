@@ -5,6 +5,11 @@
 - Realm Database
 - MSG91
 
+## Validating App
+ - To validate just update the contacts in contactJson file in assests folder and any contact of your own.
+ - Build the app
+ - Open the app on any android device and send OTP to yur number.
+
 ## Additional Information
 
 #### First Screen - First Tab
